@@ -1,0 +1,24 @@
+car-rental-website/
+├── Home.php
+├── cars.php
+├── login.php
+├── checkout.php
+├── dashboard.php
+├── admin/
+│   ├── index.html
+│   ├── cars.html
+│   └── bookings.html
+├── assets/
+│   ├── css/
+│   │   ├── bootstrap.min.css
+│   │   └── custom.css
+│   ├── js/
+│   │   ├── bootstrap.bundle.min.js
+│   │   ├── app.js
+│   │   ├── api.js
+│   │   └── validator
+│   └── images/
+│       ├── logo.png
+│       ├── hero-bg.jpg
+│       └── [car images]
+└── README.md
