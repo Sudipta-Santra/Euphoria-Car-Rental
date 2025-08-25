@@ -1,1 +1,1 @@
-# Euphoria-Car-Rental
+# Euphoria Car Rental Project
