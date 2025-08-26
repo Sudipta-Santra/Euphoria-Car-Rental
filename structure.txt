@@ -5,9 +5,9 @@ car-rental-website/
 ├── checkout.php
 ├── dashboard.php
 ├── admin/
-│   ├── index.html
-│   ├── cars.html
-│   └── bookings.html
+│   ├── index.php
+│   ├── cars.php
+│   └── bookings.php
 ├── assets/
 │   ├── css/
 │   │   ├── bootstrap.min.css
@@ -21,4 +21,5 @@ car-rental-website/
 │       ├── logo.png
 │       ├── hero-bg.jpg
 │       └── [car images]
+
 └── README.md
