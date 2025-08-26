@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0; box-sizing: border-box; }
+.carousel-item img {
+  height: 60vh;      
+  width: 100%;        
+  object-fit: cover;  
+}
+
+.team-card img {
+  height: 250px;       
+  width: 100%;         
+  object-fit: cover;   
+}
+
