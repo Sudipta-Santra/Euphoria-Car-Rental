@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+  require("admin_connection.php");
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,10 +27,10 @@
       <div class="card shadow p-5" style="width: 600px; border-radius: 15px;">
         <h3 class="text-center mb-3">Admin Login</h3>
         
-        <form>
+        <form method="post">
           <div class="mb-3">
-            <label for="username" class="form-label">Username</label>
-            <input type="text" class="form-control" id="username" placeholder="Enter username">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email id">
           </div>
           
           <div class="mb-3">

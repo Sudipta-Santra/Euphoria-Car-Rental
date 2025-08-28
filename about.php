@@ -9,70 +9,18 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <style>
-    .hero-section {
-      background: url('image/Img3.jpeg') no-repeat center center/cover;
-      height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-align: center;
-      position: relative;
-    }
-
-    .hero-section::before {
-      content: "";
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0, 0, 0, 0.47);
-    }
-
-    .hero-section h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      z-index: 1;
-    }
-
-    .content-section {
-      padding: 60px 20px;
-    }
-
-    .content-section h2 {
-      font-weight: 600;
-      color: #e63946;
-      margin-bottom: 20px;
-    }
-
-    .content-section p {
-      font-size: 1.1rem;
-      line-height: 1.7;
-      color: #444;
-    }
-
-    .team-card {
-      border: none;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      transition: 0.3s;
-    }
-
-    .team-card:hover {
-      transform: translateY(-10px);
-    }
-
-    .team-card .card-body {
-      text-align: center;
-      padding: 20px;
-    }
-  </style>
 </head>
-<body>
-
+    <style>
+    .hero-section {
+      background: url("image/img2.jpeg");
+      background-size: cover;
+  }
+</style>
+<body class="bg-info-subtle">
 <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Car Rental</a>
+      <a class="navbar-brand fst-normal fw-bold fs-3" href="index.php">Car Rental</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
               data-bs-target="#navbarNav" aria-controls="navbarNav" 
               aria-expanded="false" aria-label="Toggle navigation">
@@ -80,10 +28,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="cars.php">Cars</a></li>
-          <li class="nav-item"><a class="nav-link active" href="about.php">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+          <li class="nav-item fst-normal fw-semibold fs-5"><a class="nav-link active" href="index.php">Home</a></li>
+          <li class="nav-item fst-normal fw-semibold fs-5"><a class="nav-link" href="cars.php">Cars</a></li>
+          <li class="nav-item fst-normal fw-semibold fs-5"><a class="nav-link" href="about.php">About</a></li>
+          <li class="nav-item fst-normal fw-semibold fs-5"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
         <ul class="navbar-nav ms-auto">
         <li class="nav-item">
@@ -92,7 +40,7 @@
       </ul>
       </div>
     </div>
-</nav>
+  </nav>
 
   <!-- Hero Section -->
   <section class="hero-section">
@@ -168,9 +116,87 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center p-3 mt-5">
-    <p>&copy; 2025 CarRentals. All Rights Reserved.</p>
-  </footer>
+   <footer class="bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Company Info -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">CarRentals</h5>
+        <p>Drive your dream car today! Affordable car rental services with 24/7 support.</p>
+      </div>
+      
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.php" class="text-decoration-none text-light">Home</a></li>
+          <li><a href="about.php" class="text-decoration-none text-light">About</a></li>
+          <li><a href="cars.php" class="text-decoration-none text-light">All Cars</a></li>
+          <li><a href="Contact" class="text-decoration-none text-light">Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Contact Us</h5>
+        <p><i class="bi bi-telephone-fill"></i> +91 12345 54321</p>
+        <p><i class="bi bi-envelope-fill"></i> info@carrentals.com</p>
+        <p><i class="bi bi-geo-alt-fill"></i> 123, Park Street, Kolkata, India</p>
+        
+        <!-- Social Icons -->
+        <div>
+          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i>facebook</a>
+          <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i>twitter</a>
+          <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i>instagram</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Bottom -->
+<footer class="bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Company Info -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">CarRentals</h5>
+        <p>Drive your dream car today! Affordable car rental services with 24/7 support.</p>
+      </div>
+      
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.php" class="text-decoration-none text-light">Home</a></li>
+          <li><a href="about.php" class="text-decoration-none text-light">About</a></li>
+          <li><a href="cars.php" class="text-decoration-none text-light">All Cars</a></li>
+          <li><a href="Contact" class="text-decoration-none text-light">Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Contact Us</h5>
+        <p><i class="bi bi-telephone-fill"></i> +91 12345 54321</p>
+        <p><i class="bi bi-envelope-fill"></i> info@carrentals.com</p>
+        <p><i class="bi bi-geo-alt-fill"></i> 123, Park Street, Kolkata, India</p>
+        
+        <!-- Social Icons -->
+        <div>
+          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i>facebook</a>
+          <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i>twitter</a>
+          <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i>instagram</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Bottom -->
+    <div class="text-center mt-4">
+      <p class="mb-0">© 2025 CarRentals. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

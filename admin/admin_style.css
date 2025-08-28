@@ -1,0 +1,28 @@
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar .nav-link {
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+.sidebar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+/* Main content area shift */
+.flex-grow-1 {
+  margin-left: 220px;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}

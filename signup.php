@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
+  <title>Signup Page</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
@@ -14,66 +14,66 @@
       height: 100vh;   /* full screen height */
       background-color: #f0f2f5;
     }
-    .login-box {
-      width: 900px;                 /* same size as signup-box */
+    .signup-box {
+      width: 900px;
       max-width: 100%;
       background: #fff;
       border-radius: 15px;
       overflow: hidden;
       box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
     }
-    .left-side {
+    .left-side img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .right-side {
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 30px;
     }
-    .form-container {
+    .card-body {
       width: 100%;
-      max-width: 350px;             /* same as .card-body in signup */
-    }
-    .right-side img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;            /* fill without stretching */
+      max-width: 350px;
     }
   </style>
 </head>
 <body class="bg-info-subtle">
 
   <!-- Main centered box -->
-  <div class="login-box row g-0">
-     
-    <!-- Left Side (Login Form) -->
+  <div class="signup-box row g-0">
+    
+    <!-- Left Side (Local Image) -->
     <div class="col-md-6 left-side">
-      <div class="form-container">
-        <h3 class="text-center text-primary-emphasis fst-normal fw-bold fs-2">Login</h3>
+      <img src="image/Img1.jpeg" alt="Signup" />
+    </div>
+    
+    <!-- Right Side (Signup Form) -->
+    <div class="col-md-6 right-side">
+      <div class="card-body">
+        <h3 class="text-center text-primary-emphasis fst-normal fw-bold fs-2">Sign Up</h3>
         <form>
-          <div class="shadow p-3 mb-3 bg-body-tertiary rounded">
-            <p class="text-center text-danger fst-italic fw-semibold fs-4">Your Journey start here</p>
-
-
-          </div>
-           <div class="mb-3 bg-body-tertiary rounded">
-            <p class="text-center text-info fst-normal fw-normal fs-5">Join us and explore endless possibilities.</p>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
           </div>
           <div class="mb-3">
             <label class="form-label fw-semibold">Email</label>
             <input type="email" class="form-control" placeholder="Enter your email">
           </div>
           <div class="mb-3">
-            <label class="form-label ">Password</label>
+            <label class="form-label fw-semibold">Password</label>
             <input type="password" class="form-control" placeholder="Enter password">
           </div>
-          <button type="submit" class="btn btn-info w-100">Login</button>
-          <p class="text-center mt-3">Don't have an account? <a href="signup.php">Register</a></p>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Confirm Password</label>
+            <input type="password" class="form-control" placeholder="Confirm password">
+          </div>
+          <button type="submit" class="btn btn-info w-100">Register</button>
+          <p class="text-center mt-3">Already have an account? <a href="login.php">Login</a></p>
         </form>
       </div>
-    </div>
-    
-    <!-- Right Side (Local Image) -->
-    <div class="col-md-6 right-side">
-      <img src="image/Img1.jpeg" alt="Login Image">
     </div>
 
   </div>
